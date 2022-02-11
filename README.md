@@ -1,10 +1,12 @@
-# iniciar a aplicação com docker
-- docker-compose up -d
-
-# acessar container da aplicação
-- docker-compose exec app bash
-
-# Rodar a aplicação em go
+# Subir containers docker
+```bash 
+docker-compose up -d
+```
+# Acessar container da aplicação
+```bash 
+docker-compose exec app bash
+```
+# Rodar a aplicação
 ```bash 
 go run cmd/main.go
 ```
